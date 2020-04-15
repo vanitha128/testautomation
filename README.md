@@ -10,7 +10,8 @@ Since these tests run on confluence production site instead of staging(test) env
 These users and pages are hard coded in the scripts.
 
 # How to run
-To run the tests, goto testng.xml in src/test/resources, right click run as testng suite.
+Prerequisite: Install testng, maven, java, chrome driver
+To run the tests, goto testng.xml in src/test/resources, right click, run as testng suite.
 
 # Test cases included:
 1. Add restrictions on a user.
@@ -19,11 +20,12 @@ To run the tests, goto testng.xml in src/test/resources, right click run as test
 
 
 # Further enhancements to framework with Atlassian testing environment
-1. Include dynamic user, space and page creation using staging environment.
-2. Database validations after each write operation to help isolate back end and front end issues.
-3. Email validations for flows that trigger emails like request and accept permissions.
-4. Attach the tests as part of CI/CD pipeline
-5. Space settings can be set in the script to test more combinations with page and space settings
+
+- [ ] Include dynamic user, space and page creation using staging environment.
+- [ ] Database validations after each write operation to help isolate back end and front end issues.
+- [ ] Email validations for flows that trigger emails like request and accept permissions.
+- [ ] Attach the tests as part of CI/CD pipeline
+- [ ] Space settings can be set in the script to test more combinations with page and space settings
 
 Test run results - testng html report
 ![picture](test-output/testResultsScreenShot.png)
