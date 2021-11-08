@@ -19,9 +19,9 @@ To run the tests, goto testng.xml in src/test/resources, right click, run as tes
 3. Inspecting permissions (added to both testcases 1 and 2 as part of validation)
 
 
-# Further enhancements to framework with Atlassian testing environment
+# Further enhancements to framework
 
-- [ ] Include dynamic user, space and page creation using staging environment.
+- [ ] Include dynamic user, space and page creation using the appropriate
 - [ ] Database validations after each write operation to help isolate back end and front end issues.
 - [ ] Email validations for flows that trigger emails like request and accept permissions.
 - [ ] Attach the tests as part of CI/CD pipeline
